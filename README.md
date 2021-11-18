@@ -37,14 +37,8 @@ Responsive
 ### Je opdracht:
 Website die ik ga namaken: https://www.basketball.nl/
 #### Screenshot(s) van de eerste pagina (small screen): 
-<<<<<<< HEAD
 hier de naam van de pagina  
 <img src="images/home-basketball.png" width="375px" alt="omschrijving van de pagina">
-=======
-Website die ik ga namaken: https://www.basketball.nl/
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
->>>>>>> 05eafdea0f951e7b784344242cfad5d764e64a94
-
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
 <img src="images/contact-basketball.png" width="375px" alt="omschrijving van de pagina">
