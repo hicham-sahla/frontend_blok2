@@ -1,4 +1,3 @@
-Website die ik ga namaken: https://www.basketball.nl/
 
 # Procesverslag
 Markdown is een simpele manier om HTML te schrijven.  
@@ -18,14 +17,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Hicham Sahla
 
 #### Je startniveau:
-hier je startniveau (kies uit zwart, rood óf blauw)
-
+Zwart
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
- 
+Responsive 
 </details>
 
 
@@ -38,11 +35,15 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-
+Website die ik ga namaken: https://www.basketball.nl/
 #### Screenshot(s) van de eerste pagina (small screen): 
+<<<<<<< HEAD
 hier de naam van de pagina  
 <img src="images/home-basketball.png" width="375px" alt="omschrijving van de pagina">
+=======
+Website die ik ga namaken: https://www.basketball.nl/
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+>>>>>>> 05eafdea0f951e7b784344242cfad5d764e64a94
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
