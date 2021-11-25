@@ -1,21 +1,45 @@
-/* CSS Document */
+/* Variables */
+:root {
+  --primary: #fa4a00;
+  --light: #f2f3f9;
+  --dark: #111213;
+  --white: #ffffff;
+}
+
 * {
   padding: 0;
   margin: 0;
 }
 
-body{
+body {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
-  grid-template-areas: 
+  grid-template-areas:
+    "topnav"
     "mobilemenu"
     "navbar"
     "pageheader"
     "content"
+    "news"
+    "social"
     "partners"
     "subscribe"
     "footer";
+}
+#topnav {
+  grid-area: topnav;
+  background-color: #ecedf3;
+  padding: 10px;
+}
+
+#topnav :last-child {
+  float: right;
+}
+
+#topnav a {
+  text-decoration: none;
+  color: gray;
 }
 
 #mobile-menu {
@@ -25,12 +49,122 @@ body{
 #navbar {
   grid-area: navbar;
 }
+
 #pageheader {
+  padding: 50px;
+  background: black;
+  background: -webkit-linear-gradient(
+      rgba(29, 38, 113, 0.8),
+      rgba(195, 55, 100, 0.8)
+    ),
+    url("../images/pageheader-img.jpg");
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
+    url("../images/pageheader-img.jpg"); /* The least supported option. */
   grid-area: pageheader;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "title"
+    "btn";
 }
-#content {
+
+#pageheader h1 {
+  grid-area: title;
+  color: var(--white);
+  margin-top: 200px;
+  width: 50%;
+}
+
+#pageheader div {
+  margin-left: 20px;
+}
+
+#pageheader a {
+  display: block;
+  width: 150px;
+  height: 30px;
+  background: var(--primary);
+  padding: 10px 40px;
+  text-align: center;
+  border-radius: 5px;
+  color: var(--white);
+  font-weight: bold;
+  line-height: 25px;
+  text-decoration: none;
+
+  margin-top: 25px;
+}
+
+main {
+  padding: 50px;
   grid-area: content;
+  background: linear-gradient(rgba(242, 243, 249, 0.5) 50%, #fff),
+    url(../images/grunge-wit-tile.jpg) repeat 0 0;
+  padding-top: 40px;
 }
+
+main {
+  display: grid;
+  grid-template-columns: 55% 43;
+  gap: 2%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header"
+    "div-1 div-2"
+    "div-1 div-3";
+}
+
+main h2 {
+  grid-area: header;
+}
+
+main article {
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  padding: 100px;
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(29, 38, 113, 0.8)),
+    url("../images/pageheader-img.jpg"); /* The least supported option. */
+}
+
+main article a {
+  color: var(--white);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+main article a:hover {
+  color: var(--primary);
+}
+
+main article:nth-child(2) {
+  grid-area: div-1;
+  background-color: red;
+}
+
+main article:nth-child(3) {
+  grid-area: div-2;
+  background-color: blue;
+}
+
+main article:nth-child(4) {
+  grid-area: div-3;
+  background-color: green;
+}
+
+#news {
+  grid-area: social;
+}
+
 #social {
   grid-area: social;
 }
@@ -45,8 +179,8 @@ body{
 }
 /* Image responsive styling */
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Default menu styling */
@@ -56,62 +190,62 @@ nav a {
 /* Mobile menu styling */
 
 #mobile-menu header nav {
-    background-color: #eee;
-    padding: 42px 0;
-    position: absolute;
-    right: -280px;
-    transition: right .4s;
-    top: 0;
-    height: 100vh;
-    width: 280px;
+  background-color: #eee;
+  padding: 42px 0;
+  position: absolute;
+  left: -280px;
+  transition: left 0.4s;
+  top: 0;
+  height: 100vh;
+  width: 280px;
 }
 
 #mobile-menu nav.is-open {
-    right: 0;
+  left: 0;
 }
 
 #mobile-menu nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 #mobile-menu nav ul li {
-    display: block;
-    margin: 0;
-    padding: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
 #mobile-menu nav ul li a {
-    color: #555;
-    display: block;
-    font-size: 1.4em;
-    padding: 8px 24px;
-    text-decoration: none;
+  color: #555;
+  display: block;
+  font-size: 1.4em;
+  padding: 8px 24px;
+  text-decoration: none;
 }
 
 #mobile-menu a#slideout-close {
-    color: #888;
-    display: block;
-    font-size: 2em;
-    padding: 24px 42px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    text-decoration: none;
+  color: #888;
+  display: block;
+  font-size: 2em;
+  padding: 24px 42px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-decoration: none;
 }
 
 #mobile-menu #slideout-toggle {
-    display: inline-block;
-    padding: 24px;
-    width: 18px;
-    float: right;
+  display: inline-block;
+  padding: 24px;
+  width: 18px;
+  float: right;
 }
 
 #mobile-menu a span {
-    background-color: #888;
-    display: block;
-    height: 2px;
-    width: 100%;
-    margin: 3px 0;
+  background-color: #888;
+  display: block;
+  height: 2px;
+  width: 100%;
+  margin: 3px 0;
 }

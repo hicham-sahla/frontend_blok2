@@ -73,26 +73,23 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Het maken van de mobiele menu ging wel goed. Ik heb de Javascript en css werkend gekregen. Ook heb ik alvast de structuur van website opgemaakt met css Grid. Zelf ben ik nog niet helemaal tevreden met de manier waarop ik de mobiele menu heb gebouwd ik heb namelijk spans gebruiks als hamburger icoon. Dit lijkt me omslachtig/onhandig ik zal hier later verbetering in moeten maken.
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+afwezig/ziek
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+afwezig/ziek
+<img src="images/week2-1.png" width="375px" alt="Js code mobile menu">
+<img src="images/week2-2.png" width="375px" alt="HTML code mobile menu">
+<img src="images/week2-3.png" width="375px" alt="CSS code mobile menu">
+
+
 
 </details>
 
