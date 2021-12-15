@@ -4,7 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="author" content="jouw naam" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
     <title>Howdy FED2122</title>
 
@@ -16,7 +25,7 @@
     <!-- Mobile menu only visible on smaller screen sizes -->
     <section id="topnav">
       <a href="#">Dutch Basketball League</a>
-      <a href="#">Contact</a>
+      <a href="contact.html">Contact</a>
     </section>
     <section id="mobile-menu">
       <header>
@@ -46,14 +55,34 @@
         </a>
       </header>
     </section>
-    <section id="navbar"></section>
-    <section id="pageheader">
-      <div>
-    <h1>NATIONALE BASKETBALSELECTIES SPELEN VOORTAAN IN KLEDING VAN NIKE</h1>
-      <a href="#">Lees het hele artikel</a>
-      </div>
+    <section id="navbar">
+      <header>
+        <img
+          src="images/basketball-logo.jpeg"
+          alt="basketball logo"
+          width="220"
+        />
+        <nav>
+          <a href="#">Basketball</a>
+          <a href="#">Competities</a>
+          <a href="#">Orange lions</a>
+          <a href="#">3X3</a>
+          <a href="#">Kennis hub</a>
+        </nav>
+        <span class="material-icons"> search </span>
+      </header>
     </section>
-      <main id="content">
+
+    <main>
+      <section id="pageheader">
+        <div>
+          <h1>
+            NATIONALE BASKETBALSELECTIES SPELEN VOORTAAN IN KLEDING VAN NIKE
+          </h1>
+          <a href="#">Lees het hele artikel</a>
+        </div>
+      </section>
+      <section id="content">
         <h2>Basketball Nederland</h2>
         <article>
           <a href="#"><h3>Basketball Nederland</h3> </a>
@@ -63,14 +92,128 @@
         </article>
         <article>
           <a href="#"><h3>Wat is Basketball?</h3></a>
+        </article>
+      </section>
+      <section id="news">
+        <h2>Nieuwsberichten</h2>
+        <article>
+          <img src="images/rolstoel.jpg" alt="Avatar" style="width: 100%" />
+          <div>
+            <a href="">
+              <small>3 dagen geleden</small>
+              <h3>
+                DUBBELE BLIJDSCHAP BIJ ORANGE LIONS NA BEREIKEN HALVE FINALES EK
+              </h3></a
+            >
+          </div>
+        </article>
+        <article>
+          <img src="images/rolstoel.jpg" alt="Avatar" style="width: 100%" />
+          <div>
+            <a href="">
+              <small>4 dagen geleden</small>
+              <h3>ONVERSLAANBAAR IN POULEFASE VAN HET EK</h3></a
+            >
+          </div>
+        </article>
+        <article>
+          <img src="images/rolstoel.jpg" alt="Avatar" style="width: 100%" />
+          <div>
+            <a href="">
+              <small>5 dagen geleden</small>
+              <h3>
+                WORD SPORTCOÖRDINATOR TIJDENS DE WORLD POLICE & FIRE GAMES IN DE
+                ZOMER VAN 2022
+              </h3></a
+            >
+          </div>
+        </article>
+        <a href="#" class="primary-link"
+          >Bekijk alle nieuwsberichten
+          <span class="material-icons">arrow_forward</span></a
+        >
+      </section>
+    </main>
+    <section id="social">
+      <h2>VOLG BASKETBALL NEDERLAND OP SOCIAL MEDIA</h2>
+      <a href="#"> <img src="images/facebook.png" alt="" />Facebook</a>
+      <a href="#"> <img src="images/twitter.png" alt="" />Twitter </a>
+      <a href="#"> <img src="images/youtube.png" alt="" />Youtube</a>
+      <a href="#"> <img src="images/instagram.png" alt="" />Instagram</a>
+    </section>
+    <section id="partners">
+      <div class="slider-container">
+        <div class="slider">
+          <div class="slides">
+            <div id="slides__1" class="slide slide-desktop">
+              <span class="slide__text"
+                ><img src="images/desktop-slide1.png" alt=""
+              /></span>
+              <a class="slide__prev" href="#slides__4" title="Next"></a>
+              <a class="slide__next" href="#slides__2" title="Next"></a>
+            </div>
+            <div id="slides__2" class="slide slide-desktop">
+              <span class="slide__text"
+                ><img src="images/desktop-slide2.png" alt=""
+              /></span>
+              <a class="slide__prev" href="#slides__1" title="Prev"></a>
+              <a class="slide__next" href="#slides__3" title="Next"></a>
+            </div>
+            <div id="slides__3" class="slide slide-desktop">
+              <span class="slide__text"
+                ><img src="images/desktop-slide3.png" alt=""
+              /></span>
+              <a class="slide__prev" href="#slides__2" title="Prev"></a>
+              <a class="slide__next" href="#slides__1" title="Next"></a>
+            </div>
+          </div>
+        </div>
       </div>
-      </main>
-    <section id="news"></section>
-    <section id="social"></section>
-    <section id="partners"></section>
-    <section id="subscribe"></section>
+    </section>
+    <section id="subscribe">
+      <div>
+        <h2>STAY UP TO DATE! ABONNEER JE OP ONZE NIEUWSBRIEVEN</h2>
+        <h3>
+          HET LAATSTE EVENT NEWS EN INSIDER INFORMATIE VOOR SCHEIDSRECHTERS EN
+          COACHES.
+        </h3>
+        <a href="#">Kies je nieuwsbrief</a>
+      </div>
+    </section>
+    <section id="subfooter">
+      <div>
+        <img src="images/basketball-logo.jpeg" alt="" />
+        <h2>Nederlandse basketball Bond</h2>
+        <ul>
+          <li><a href="#">Organisatie</a></li>
+          <li><a href="#">Historie</a></li>
+          <li><a href="#">Algemene vergadering</a></li>
+          <li><a href="#">Bestuur en commisies</a></li>
+          <li><a href="#">Medewerkers</a></li>
+          <li><a href="#">Reglementen</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"> <img src="images/facebook.png" alt="" />Facebook</a>
+          </li>
+          <li>
+            <a href="#"> <img src="images/twitter.png" alt="" />Twitter </a>
+          </li>
+          <li>
+            <a href="#"> <img src="images/youtube.png" alt="" />Youtube</a>
+          </li>
+          <li>
+            <a href="#"> <img src="images/instagram.png" alt="" />Instagram</a>
+          </li>
+        </ul>
+      </div>
+    </section>
     <section id="footer">
-      <footer></footer>
+      <footer>
+        <p>© 2021 NEDERLANDSE BASKETBALL BOND</p>
+        <a href="#">Privacy</a>
+      </footer>
     </section>
     <script src="scripts/script.js"></script>
   </body>

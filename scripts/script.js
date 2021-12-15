@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
         menu.classList.toggle('is-open');
     });
-
     // Close Menu
     closeButton.addEventListener('click', function(e) {
         e.preventDefault();

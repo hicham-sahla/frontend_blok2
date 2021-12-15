@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="jouw naam" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Howdy FED2122</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  </head>
+
+  <body>
+    <!-- Mobile menu only visible on smaller screen sizes -->
+    <section id="topnav">
+      <a href="index.html">Dutch Basketball League</a>
+      <a href="/contact.html">Contact</a>
+    </section>
+    <section id="mobile-menu">
+      <header>
+        <nav id="slideout-menu">
+          <a id="slideout-close" href="#">&times;</a>
+          <ul>
+            <li><a href="#" title="Our homepage">Basketball</a></li>
+            <li><a href="#" title="About CompanyX">Competities</a></li>
+            <li><a href="#" title="Services we offer">Orange Lions</a></li>
+            <li><a href="#" title="Get in touch!">3X3</a></li>
+            <li><a href="#" title="Get in touch!">Kennis Hub</a></li>
+            <li>
+              <a href="#" title="Get in touch!">Dutch Basketball League</a>
+            </li>
+            <li><a href="#" title="Get in touch!">Contact</a></li>
+          </ul>
+        </nav>
+        <img
+          src="images/basketball-logo.jpeg"
+          alt="basketball logo"
+          width="120"
+        />
+        <a id="slideout-toggle" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </header>
+    </section>
+    <section id="navbar">
+      <header>
+        <img
+          src="images/basketball-logo.jpeg"
+          alt="basketball logo"
+          width="220"
+        />
+        <nav>
+          <a href="#">Basketball</a>
+          <a href="#">Competities</a>
+          <a href="#">Orange lions</a>
+          <a href="#">3X3</a>
+          <a href="#">Kennis hub</a>
+        </nav>
+        <span class="material-icons"> search </span>
+      </header>
+    </section>
+    <main id="contact">
+      <section id="pageheader">
+        <div>
+          <h1>Contact</h1>
+        </div>
+      </section>
+      <section id="content-contact">
+        <!-- source accordion: https://codepen.io/dandiws/pen/qqyeed -->
+        <div>
+          <div>
+            <input type="radio" name="acc" id="acc1" checked />
+            <label for="acc1"> Algemene vergadering</label>
+            <article class="acc-body">
+              <p>algemene vergadering 2021</p>
+              <p>algemene vergadering 2020</p>
+              <p>algemene vergadering 2019</p>
+              <p>algemene vergadering 2018</p>
+              <p>algemene vergadering 2017</p>
+            </article>
+          </div>
+          <div>
+            <input type="radio" name="acc" id="acc2" />
+            <label for="acc2"> bestuur en commisies</label>
+            <article class="acc-body">
+              <p>Bestuur NBB</p>
+              <p>AV Comissies</p>
+              <p>Bondsreglementencomissie</p>
+              <p>Afdelingcommisies</p>
+              <p>Commissie van advies</p>
+            </article>
+          </div>
+          <div>
+            <input type="radio" name="acc" id="acc3" />
+            <label for="acc3">Medewerkers NBB</label>
+            <article class="acc-body">
+              <p>Voorzitter</p>
+              <p>Secretaries</p>
+              <p>Coaches</p>
+              <p>Spelers</p>
+              <p>Sponsoren</p>
+            </article>
+          </div>
+          <div>
+            <input type="radio" name="acc" id="acc4" />
+            <label for="acc4">Partners</label>
+            <article class="acc-body">
+              <p>Meer informatie</p>
+              <p>Tenuis</p>
+              <p>Huisregels</p>
+            </article>
+          </div>
+        </div>
+        <article>
+          <h2>Contact</h2>
+          <h3>Bezoekadres</h3>
+          <p>
+            Bezoekadres Kelvinbaan 48 (eerste verdieping) 3439 MT Nieuwegein
+          </p>
+          <h3>Postadres</h3>
+          <p>Postbus 2650 3430 GB Nieuwegein</p>
+          <h3>Algemeen e-mailadres</h3>
+          <p>info@basketball.nl</p>
+          <h3>Algemeen telefoonnummer</h3>
+          <p>030-20 20 120</p>
+          <p>
+            Telefonisch bereikbaar op maandag t/m donderdag van 8.30 - 12.30 uur
+            en van 13.00 tot 17.00 uur en op vrijdag van 8.30 - 12:30 uur.
+          </p>
+        </article>
+      </section>
+    </main>
+    <section id="social">
+      <h2>VOLG BASKETBALL NEDERLAND OP SOCIAL MEDIA</h2>
+      <a href="#"> <img src="images/facebook.png" alt="" />Facebook</a>
+      <a href="#"> <img src="images/twitter.png" alt="" />Twitter </a>
+      <a href="#"> <img src="images/youtube.png" alt="" />Youtube</a>
+      <a href="#"> <img src="images/instagram.png" alt="" />Instagram</a>
+    </section>
+    <section id="partners">
+      <div class="slider-container">
+        <div class="slider">
+          <div class="slides">
+            <div id="slides__1" class="slide slide-desktop">
+              <span class="slide__text"
+                ><img src="images/desktop-slide1.png" alt=""
+              /></span>
+              <a class="slide__prev" href="#slides__4" title="Next"></a>
+              <a class="slide__next" href="#slides__2" title="Next"></a>
+            </div>
+            <div id="slides__2" class="slide slide-desktop">
+              <span class="slide__text"
+                ><img src="images/desktop-slide2.png" alt=""
+              /></span>
+              <a class="slide__prev" href="#slides__1" title="Prev"></a>
+              <a class="slide__next" href="#slides__3" title="Next"></a>
+            </div>
+            <div id="slides__3" class="slide slide-desktop">
+              <span class="slide__text"
+                ><img src="images/desktop-slide3.png" alt=""
+              /></span>
+              <a class="slide__prev" href="#slides__2" title="Prev"></a>
+              <a class="slide__next" href="#slides__1" title="Next"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="subscribe">
+      <div>
+        <h2>STAY UP TO DATE! ABONNEER JE OP ONZE NIEUWSBRIEVEN</h2>
+        <h3>
+          HET LAATSTE EVENT NEWS EN INSIDER INFORMATIE VOOR SCHEIDSRECHTERS EN
+          COACHES.
+        </h3>
+        <a href="#">Kies je nieuwsbrief</a>
+      </div>
+    </section>
+    <section id="subfooter">
+      <div>
+        <img src="images/basketball-logo.jpeg" alt="" />
+        <h2>Nederlandse basketball Bond</h2>
+        <ul>
+          <li><a href="#">Organisatie</a></li>
+          <li><a href="#">Historie</a></li>
+          <li><a href="#">Algemene vergadering</a></li>
+          <li><a href="#">Bestuur en commisies</a></li>
+          <li><a href="#">Medewerkers</a></li>
+          <li><a href="#">Reglementen</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"> <img src="images/facebook.png" alt="" />Facebook</a>
+          </li>
+          <li>
+            <a href="#"> <img src="images/twitter.png" alt="" />Twitter </a>
+          </li>
+          <li>
+            <a href="#"> <img src="images/youtube.png" alt="" />Youtube</a>
+          </li>
+          <li>
+            <a href="#"> <img src="images/instagram.png" alt="" />Instagram</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="footer">
+      <footer>
+        <p>© 2021 NEDERLANDSE BASKETBALL BOND</p>
+        <a href="#">Privacy</a>
+      </footer>
+    </section>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
